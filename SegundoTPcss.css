@@ -1,0 +1,310 @@
+*
+{
+    background-color: rgb(231, 231, 231);;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 1920px;
+}
+
+
+.contenedor1
+{
+    max-width: 1920px;
+    background-color: rgb(0, 132, 255);   
+    display: flex; 
+    align-items: center;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+    
+}
+#usuario
+{
+
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);;
+    border-style: hidden;
+    height: 40px;
+    width: 10%;
+    min-width: 60px;
+    margin-left: 70%;
+    
+}
+#logo
+{
+    background-color: rgb(0, 132, 255);    
+    width: 15%; 
+    min-width: 80px;
+}
+
+
+
+
+
+.contenedor2
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    background-color: white;
+    justify-content:space-between; 
+    
+}
+#datos
+{
+    
+    position: relative;
+    right: 22%;
+    margin-left: 3%;
+    width: 30%;
+    min-width: 250px;
+    font-size: 1vw;
+}
+
+
+.azul
+{
+    border-style: hidden;
+    height: 40px;
+    width: 10%;
+    border-radius: 10px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 100%;
+    font-weight: 200;
+    min-width: 60px;
+    margin-right: 3%;
+    
+}
+.blanco
+{
+    border-style: hidden;
+    height: 40px;
+    width: 10%;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 132, 255);
+    font-size: 100%;
+    font-weight: 200;
+    min-width: 60px;
+    margin-right: 3%;
+}
+
+
+#fotoPerfil
+{
+    border-style: solid;
+    border-color: rgb(0, 132, 255);
+    border-radius: 50%;
+    padding: 0.13%;
+    background-color: white;
+    height:10%;
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+#info
+{
+    background-color: white;
+}
+#dato
+{
+    background-color: white;
+}
+
+
+
+
+.contenedor3
+{  
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#publi
+{
+    background-color: white;
+    width: 70%;
+    border-radius: 10px; 
+    height: 70%;
+    margin-bottom: 5%;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+#publicacion
+{
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    width: 92%;
+    height: 50%;
+}
+#btnMeGusta
+{
+    width: 18%;
+    height: 50px;
+    border-style:hidden;
+    border-radius: 10px;
+    color: rgb(0, 132, 255);
+    display: block; 
+    font-weight: 600; 
+    font-size: 1vw;
+    border-color: rgb(0, 132, 255);
+}
+#fecha
+{
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif; 
+    color: gray;
+    font-weight:400;
+    margin-left: 4%;
+    width: 70%;
+    margin-right: 4%;
+    margin-top: 4%;
+    font-size: 1.5vw;
+}
+#presentacion
+{
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    height: 450px;
+    min-width: 250px;
+    margin-left: 5%;
+    width: 25%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1vw;
+}
+#presentacion1
+{
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+#presentacion2
+{
+    background-color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#dejarComentario
+{
+    border-style:hidden;
+    border-radius: 15px;
+    width: 60%;
+    height: 50px;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 1vw;
+    
+}
+#comentarios
+{
+    background-color: white;
+    margin-left: 4%;
+    margin-top: 4%;
+    font-size: 1vw;
+}
+#btnComentar
+{
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 15%;
+    height: 50px;
+    border-style:hidden;
+    border-radius: 10px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 1.1vw;
+    
+}
+.conteoLikes
+{
+    background-color: white;
+    display: flex;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+.conteoLikes2
+{
+    
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin-left: 70%;
+    margin-right: 4%;
+}
+label
+{
+    
+    background-color: white;
+    font-weight: 600;
+    margin-right: 0;
+    font-size: 1.5vw;
+}
+#likes
+{
+    
+    margin-left: 10%;
+    background-color: white;
+    font-size: 1.5vw;
+    color: rgb(215, 215, 215);
+    
+}
+
+
+b{
+    background-color: white;
+}
+dt
+{
+    background-color: white;
+    font-size: 1vw;
+}
+
+
+#listaComentarios
+{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-right: 4%;
+}
+#btnBorrar
+{
+   width: 60%;
+   justify-self: right; 
+   grid-column: 2;
+   border-radius: 10px;
+   color: red;
+}
+#seccionComentar
+{
+    margin-bottom: 4%;
+    background-color: white;
+}
